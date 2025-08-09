@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# shortcut to running gradle build
+gradlew cleanTest test --parallel $1 $2 $3

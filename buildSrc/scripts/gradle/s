@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# shortcut to running spotless
+gradlew spotlessApply

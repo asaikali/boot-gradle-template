@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# shortcut to running gradle build
+gradlew clean build --parallel --no-build-cache --warning-mode all $1 $2 $3
